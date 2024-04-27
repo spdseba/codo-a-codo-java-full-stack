@@ -227,14 +227,14 @@ body{
         margin-bottom: 0.5rem;
 }
 }
- .main .boton{
+ .main .btn{
     border: 1px solid white;
     box-sizing: content-box;
     margin-top:50px;
     margin-left:20px;
     background-color:#9f3647;
     color: #ffffff;
-    padding: 1rem 1rem;
+    padding: 1rem 2rem;
     border-radius: 5px;
     font-size: 1rem;
     font-weight: 500;
@@ -243,8 +243,9 @@ body{
      /* Agregar efecto de botón presionado */
      transition: transform 0.3s, box-shadow 0.3s;
  }
- .main .boton:hover{
-    background-color: #9f3647;
+ .main .btn:hover{
+    background-color: #2d2325;
+    color: #9f3647;
     transform: scale(0.95);
     box-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
  }
